@@ -18,6 +18,7 @@ def parse(fn):
 
     # availability
     numWarehouses = int(data[3])
+    sim['numWarehouses'] = numWarehouses
     ln = 4
 
     warehouses = []
@@ -35,6 +36,7 @@ def parse(fn):
     ln = ln + (numWarehouses * 2)
 
     numOrders = int(data[ln])
+    sim['numOrders'] = numOrders
     ln += 1
 
     # orders
