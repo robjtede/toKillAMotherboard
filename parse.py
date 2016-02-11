@@ -2,7 +2,7 @@ import sys
 
 def parse(fn):
     sim = {}
-    with open(sys.argv[1], "r") as input:
+    with open(fn, "r") as input:
         data = input.read().split("\n")[:-1]
 
     # params
