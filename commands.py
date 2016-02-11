@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 def load(drone, store, item_id, item_qt):
     sim['drones'][drone]['products'][item_id] += item_qt
     sim['warehouses'][store]['products'][item_id] -= item_qt
@@ -12,3 +13,16 @@ def unload(drone, store, item_id, item_qt):
 
 def wait(droneNumber, time):
     sim['drones'][droneNumber]['timer'] = time
+=======
+from parse import parse
+sim = parse(sys.argv[1])
+
+def load():
+    
+def deliver():
+    
+def unload():
+    
+def wait():
+    
+>>>>>>> Stashed changes
