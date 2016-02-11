@@ -4,5 +4,5 @@ def deliver():
 	
 def unload():
 	
-def wait():
-	
+def wait(droneNumber, time):
+	sim['drones'][droneNumber]['timer'] = time
