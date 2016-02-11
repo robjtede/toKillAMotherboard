@@ -1,5 +1,5 @@
 def load(drone, store, item_id, item_qt):
-	sim['drones'][drone]['products'][item_id] += item_qt
+    sim['drones'][drone]['products'][item_id] += item_qt
     sim['warehouses'][store]['products'][item_id] -= item_qt
     
     
