@@ -28,7 +28,7 @@ def parse(fn):
                 'row': int(data[x].split(" ")[0]),
                 'col': int(data[x].split(" ")[1])
             },
-            'items': data[x + 1].split(" ")
+            'products': data[x + 1].split(" ")
         })
     
     sim['warehouses'] = warehouses
