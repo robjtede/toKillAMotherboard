@@ -2,7 +2,7 @@ import sys
 from parse import parse
 
 sim = parse(sys.argv[1])
-print sim['warehouses'][0]['pos']['row']
+print sim['numWarehouses']
 
 # rowsInArea
 # columnsInArea
