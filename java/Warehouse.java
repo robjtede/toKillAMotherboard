@@ -3,8 +3,8 @@ public class Warehouse extends Location {
 	private int[] stock;
 	private int[] available;
 	
-	public Warehouse (Position pos, int[] stock) {
-		super(pos);
+	public Warehouse (int[] stock) {
+		super();
 		this.stock = stock;
 	}
 	

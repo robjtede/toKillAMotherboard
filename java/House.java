@@ -1,7 +1,10 @@
 public class House extends Location {
 	
-	public House (int[] products) {
-		this.orders = products;
+	private int[] orders;
+	
+	public House (int[] orders) {
+		super();
+		this.orders = orders;
 	}
 	
 }
