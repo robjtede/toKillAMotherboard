@@ -17,6 +17,7 @@ print sim['warehouses'][0]['products']
 #     pos
 #         row
 #         col
+#        products
 # orders
 #     pos
 #         row

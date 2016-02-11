@@ -4,7 +4,4 @@ class Drone:
         self.timer = 0
         self.action = 'none'
     
-    load
-
-
-print Drone({'row': 0, 'col': 0}).
+    
