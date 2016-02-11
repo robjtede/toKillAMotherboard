@@ -51,4 +51,4 @@ def parse(fn):
     
     sim['orders'] = orders
     
-    return sim;
+    return sim
