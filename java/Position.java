@@ -3,7 +3,7 @@ public class Position {
 	private int row = 0;
 	private int col = 0;
 	
-	public Position (row, col) {
+	public Position (int row, int col) {
 		this.row = row;
 		this.col = col;
 	}
@@ -27,6 +27,10 @@ public class Position {
 	
 	public boolean equals (Position pos) {
 		return (this.row == pos.row) && (this.col == pos.col);
+	}
+	
+	public String toString () {
+		return "Row: " + this.row + " - Col: " + this.col;
 	}
 	
 }
